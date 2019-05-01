@@ -1,3 +1,4 @@
+from bisect import bisect_left as bl
 n = int(input())
 l = [int(i) for i in input().split()]
 ans=[l[0]]
