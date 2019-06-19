@@ -23,8 +23,8 @@ def update(stree,st,end,index,i,val):
         return
 
     mid=(st+end)//2
-    update(stree,i,2*index,st,mid,val)
-    update(stree,i,2*index+1,mid+1,end,val)
+    update(stree,st,mid,2*index,i,val)
+    update(stree,mid + 1,end,2*index+1,i,val)
 
     stree[index] = stree[2*index] + stree[2*index+1]
 
