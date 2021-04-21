@@ -45,9 +45,9 @@ class LinkedList:
         
         
 ll = LinkedList()  
-ll.insert(10)
-ll.insert(12)
-ll.insert(14)
+ll.insert_at_end(10)
+ll.insert_at_end(12)
+ll.insert_at_end(14)
 ll.printlinkedlist()
     
     
