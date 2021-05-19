@@ -60,7 +60,7 @@ def delete(root,data):
             x = inordersucc(root.right)
             root.data = x.data
             
-            root.right = delete(root.right,x,data)
+            root.right = delete(root.right,x.data)
             
     
     elif(root.data >= data):
