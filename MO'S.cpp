@@ -17,7 +17,7 @@ bool cmp(query x,query y){
     if(x.left/block != y.left/block)
         return x.left < y.left;
  
-    return x.right < y.right;
+    return x.right > y.right;
  
 }
  
